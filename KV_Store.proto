@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+
+package kv_store;
+
+// The greeting service definition.
+service KeyValueService {
+  rpc GENERAL_KV (KV_Request) returns (KV_Reply) {}
+
+  rpc Server_Join (Join_Request) returns (KV_Reply){}
+  // rpc PUT_KV (PUT_KV_Request) returns (KV_Reply) {}
+  // rpc GET_KV (GET_KV_Request) returns (KV_Reply) {}
+  // rpc DEL_KV (DEL_KV_Request) returns (KV_Reply) {}
+}
+
+message Join_Request{
+  string port = 1;
+  string id = 2;
+  string target_port = 3;
+  string type = 4;
+  string list = 5;
+  // string target_port = 4;
+  // string target_id = 5;
+  // string target_successor_port = 6;
+  // string target_successor_id = 7;
+}
+
+// message Join_Reply{
+
+//   string target_port = 1;
+//   string target_id = 2;
+//   string target_successor_port = 3;
+//   string target_successor_id = 4;
+// }
+
+
+message KV_Request{
+  string key = 1;
+  string value = 2;
+  string type = 3;
+  string client_id = 4;
+  string port_no = 5;
+  string path = 6;
+}
+// message PUT_KV_Request{
+//   string key = 1;
+//   string value = 2;
+//   string type = 3;
+// }
+// message GET_KV_Request{
+//   string key = 1;
+// }
+// message DEL_KV_Request{
+//   string key = 1;
+// }
+
+// The response message containing the greetings
+message KV_Reply {
+  string message = 1;
+  string status_code = 2;
+  string error_message = 3;
+  string successor_port = 4;
+  string successor_id = 5;
+  string id = 6;
+  string list = 7;
+  string predecessor_port = 8;
+  string predecessor_id = 9;
+}

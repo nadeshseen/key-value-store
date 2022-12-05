@@ -1,0 +1,5 @@
+/media/nadesh/Extra/IITB/CS744/Assignment/5/key-value-store/build/CMakeFiles/hw_grpc_proto.dir
+/media/nadesh/Extra/IITB/CS744/Assignment/5/key-value-store/build/CMakeFiles/rebuild_cache.dir
+/media/nadesh/Extra/IITB/CS744/Assignment/5/key-value-store/build/CMakeFiles/KV_Server.dir
+/media/nadesh/Extra/IITB/CS744/Assignment/5/key-value-store/build/CMakeFiles/KV_Client.dir
+/media/nadesh/Extra/IITB/CS744/Assignment/5/key-value-store/build/CMakeFiles/edit_cache.dir

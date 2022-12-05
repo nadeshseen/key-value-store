@@ -1,0 +1,8 @@
+Works
+Key space to be distributed amongst a set of nodes instead of a single server.
+Hashing across keys and nodes/servers in this 64k space.
+Build the lookup mechanism using finger table consisting of 16 entries.
+New nodes/servers can join the CHORD ring at proper place with transfer of keys.
+
+Does Not Works
+Server and client won't work on different machines.

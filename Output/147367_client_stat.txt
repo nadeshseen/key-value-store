@@ -1,0 +1,5 @@
+Min Response time is 844.000000 microseconds
+Max Response time is 844.000000 microseconds
+Avg Response time is 844.000000 microseconds
+Sum of all Response time is 844.000000 microseconds
+Total requests received are 1
