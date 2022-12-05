@@ -1,7 +1,3 @@
-Nadesh Seen 21q050003
-Shashank 21q05r002
-Gunjan 213050062
-
 -> Change directory to KV_store
 -> Create 4 new directories (If not present already):
     1) mkdir Input
